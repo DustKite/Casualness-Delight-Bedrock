@@ -1,0 +1,38 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 5,
+                "saturation_modifier": 0.5
+            },
+            "minecraft:display_name": {
+                "value": "%item.casualness_delight.cheese_wheel_slice\n%advancement.cheese_wheel"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "cheese_wheel_slice"
+                }
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "brewinandchewin:cheese_wedges",
+                    "farmersdelight:cheese_slices"
+                ]
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:cheese_wheel_slice",
+            "menu_category": {
+                "category": "equipment",
+                "group": "casualness_delight:itemGroup.name.raw_materials"
+            }
+        }
+    }
+}

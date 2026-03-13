@@ -1,0 +1,18 @@
+{
+  "format_version": "1.17",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "casualness_delight:cooked_donkey_meat"
+    },
+    "tags": [
+      "furnace",
+      "campfire",
+      "smoker",
+      "soul_campfire"
+    ],
+    "input": {
+      "tag": "farmersdelight:is_raw_donkey_meat"
+    },
+    "output": "casualness_delight:cooked_donkey_meat"
+  }
+}

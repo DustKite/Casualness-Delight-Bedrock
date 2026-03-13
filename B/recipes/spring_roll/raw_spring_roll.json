@@ -1,0 +1,26 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "casualness_delight:raw_spring_roll"
+        },
+        "ingredients": [
+            {
+                "item": "farmersdelight:minced_beef"
+            },
+            {
+                "tag": "farmersdelight:is_dough"
+            },
+            {
+                "item": "farmersdelight:cabbage_leaf"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "casualness_delight:raw_spring_roll"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

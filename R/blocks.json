@@ -1,0 +1,40 @@
+{
+    "casualness_delight:spring_roll_medley": {
+        "sound": "cloth"
+    },
+    "casualness_delight:plate_of_fried_dumpling": {
+        "sound": "cloth"
+    },
+    "casualness_delight:sweet_rice": {
+        "sound": "cloth"
+    },
+    "casualness_delight:bobo_chicken": {
+        "sound": "cloth"
+    },
+    "casualness_delight:stargazy_pie": {
+        "sound": "cloth"
+    },
+    "casualness_delight:quiche_lorraine": {
+        "sound": "cloth"
+    },
+    "casualness_delight:cheese_wheel": {
+        "sound": "cloth"
+    },
+    "casualness_delight:raw_cheese_wheel": {
+        "sound": "cloth"
+    },
+    "casualness_delight:paper_wrapped_fish_main": {
+        "sound": "cloth"
+    },
+    "casualness_delight:paper_wrapped_fish_other": {
+        "sound": "cloth"
+    },
+    "casualness_delight:deep_frying_pan_block": {
+        "sound": "lantern"
+    },
+    "format_version": [
+        1,
+        1,
+        0
+    ]
+}

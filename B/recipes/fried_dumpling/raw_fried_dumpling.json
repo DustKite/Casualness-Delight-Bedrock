@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "casualness_delight:raw_fried_dumpling"
+        },
+        "ingredients": [
+            {
+                "tag": "farmersdelight:is_dough"
+            },
+            {
+                "tag": "farmersdelight:is_dough"
+            },
+            {
+                "item": "minecraft:porkchop"
+            },
+            {
+                "item": "minecraft:porkchop"
+            },
+            {
+                "tag": "farmersdelight:is_cabbage"
+            },
+            {
+                "tag": "farmersdelight:is_onion"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "casualness_delight:raw_fried_dumpling"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

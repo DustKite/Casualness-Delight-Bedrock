@@ -1,0 +1,3 @@
+scriptevent farmersdelight:cutting_board_recipe { "ingredients": { "item": "minecraft:potato" }, "result": [{ "item": "casualness_delight:potato_slice", "count": 2 }], "tool": { "tag": "farmersdelight:is_knife" }, "is_block_type": false, "sound": "use.wood" }
+scriptevent farmersdelight:cutting_board_recipe { "ingredients": { "item": "casualness_delight:raw_gluten" }, "result": [{ "item": "casualness_delight:gluten", "count": 1 }], "tool": { "tag": "farmersdelight:is_knife" }, "is_block_type": false, "sound": "use.wood" }
+scoreboard objectives remove farmersdelight_casualness_delight_cutting_board

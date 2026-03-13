@@ -1,0 +1,29 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 5,
+                "saturation_modifier": 0.6
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "yorkshire_pudding"
+                }
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:yorkshire_pudding",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

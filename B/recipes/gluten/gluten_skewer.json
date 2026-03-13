@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "casualness_delight:gluten_skewer"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "item": "casualness_delight:gluten"
+      },
+      "B": {
+      "item": "minecraft:stick"
+      }
+    },
+    "result": [
+    {
+      "item": "casualness_delight:gluten_skewer",
+      "count": 1
+    }
+   ]
+  }
+}

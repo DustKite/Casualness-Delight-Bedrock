@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "casualness_delight:raw_chicken_bobo_chicken_two"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:chicken"
+      },
+      "B": {
+      "item": "minecraft:stick"
+      }
+    },
+    "result": [
+    {
+      "item": "casualness_delight:raw_chicken_bobo_chicken",
+      "count": 1
+    }
+   ]
+  }
+}

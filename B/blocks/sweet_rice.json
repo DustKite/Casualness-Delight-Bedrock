@@ -1,0 +1,156 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "casualness_delight:sweet_rice",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "casualness_delight:food_block_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 0.0
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('casualness_delight:food_block_stage') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.sweet_rice_4",
+                    "minecraft:loot": "loot_tables/casualness_delight/blockfood/sweet_rice.json"
+                }
+            },
+            {
+                "condition": "query.block_state('casualness_delight:food_block_stage') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.sweet_rice_3",
+                    "minecraft:loot": "loot_tables/casualness_delight/blockfood/bowl.json"
+                }
+            },
+            {
+                "condition": "query.block_state('casualness_delight:food_block_stage') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.sweet_rice_2",
+                    "minecraft:loot": "loot_tables/casualness_delight/blockfood/bowl.json"
+                }
+            },
+            {
+                "condition": "query.block_state('casualness_delight:food_block_stage') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.sweet_rice_1",
+                    "minecraft:loot": "loot_tables/casualness_delight/blockfood/bowl.json"
+                }
+            },
+            {
+                "condition": "query.block_state('casualness_delight:food_block_stage') == 4",
+                "components": {
+                    "minecraft:geometry": "geometry.sweet_rice_0",
+                    "minecraft:loot": "loot_tables/casualness_delight/blockfood/bowl.json"
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            270,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:geometry": "geometry.sweet_rice_4",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.3
+            },
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.01
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "sweet_rice"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -5.0,
+                    1.0,
+                    -5.0
+                ],
+                "size": [
+                    10.0,
+                    4.0,
+                    10.0
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5.0,
+                    1.0,
+                    -5.0
+                ],
+                "size": [
+                    10.0,
+                    4.0,
+                    10.0
+                ]
+            },
+            "minecraft:connection_rule": {
+                "accepts_connections_from": "none"
+            },
+            "casualness_delight:sweet_rice": {}
+        }
+    }
+}

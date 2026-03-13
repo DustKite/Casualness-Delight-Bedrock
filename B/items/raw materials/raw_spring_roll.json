@@ -1,0 +1,19 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "raw_spring_roll"
+                }
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:raw_spring_roll",
+            "menu_category": {
+                "category": "equipment",
+                "group": "casualness_delight:itemGroup.name.raw_materials"
+            }
+        }
+    }
+}

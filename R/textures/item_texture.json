@@ -1,0 +1,144 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "fish_and_chips": {
+      "textures": "textures/items/fish_and_chips"
+    },
+    "stargazy_pie_slice": {
+      "textures": "textures/items/stargazy_pie_slice"
+    },
+    "quiche_lorraine_slice": {
+      "textures": "textures/items/quiche_lorraine_slice"
+    },
+    "yorkshire_pudding": {
+      "textures": "textures/items/yorkshire_pudding"
+    },
+    "beef_noodles": {
+      "textures": "textures/items/beef_noodles"
+    },
+    "cheese_wheel_slice": {
+      "textures": "textures/items/cheese_wheel_slice"
+    },
+    "phantom_dumplings": {
+      "textures": "textures/items/phantom_dumplings"
+    },
+    "phantom_puff": {
+      "textures": "textures/items/phantom_puff"
+    },
+    "green_tongue": {
+      "textures": "textures/items/green_tongue"
+    },
+    "spicy_strips": {
+      "textures": "textures/items/spicy_strips"
+    },
+    "raw_gluten": {
+      "textures": "textures/items/raw_gluten"
+    },
+    "gluten": {
+      "textures": "textures/items/gluten"
+    },
+    "gluten_skewer": {
+      "textures": "textures/items/gluten_skewer"
+    },
+    "roast_gluten": {
+      "textures": "textures/items/roast_gluten"
+    },
+    "raw_donkey_meat": {
+      "textures": "textures/items/raw_donkey_meat"
+    },
+    "cooked_donkey_meat": {
+      "textures": "textures/items/cooked_donkey_meat"
+    },
+    "donkey_burger": {
+      "textures": "textures/items/donkey_burger"
+    },
+    "bowl_of_paper_wrapped_fish": {
+      "textures": "textures/items/bowl_of_paper_wrapped_fish"
+    },
+    "raw_chicken_bobo_chicken": {
+      "textures": "textures/items/raw_chicken_bobo_chicken"
+    },
+    "raw_cabbage_bobo_chicken": {
+      "textures": "textures/items/raw_cabbage_bobo_chicken"
+    },
+    "raw_potato_bobo_chicken": {
+      "textures": "textures/items/raw_potato_bobo_chicken"
+    },
+    "chicken_bobo_chicken": {
+      "textures": "textures/items/chicken_bobo_chicken"
+    },
+    "cabbage_bobo_chicken": {
+      "textures": "textures/items/cabbage_bobo_chicken"
+    },
+    "potato_bobo_chicken": {
+      "textures": "textures/items/potato_bobo_chicken"
+    },
+    "bowl_of_sweet_rice": {
+      "textures": "textures/items/bowl_of_sweet_rice"
+    },
+    "bowl_of_fried_dumpling": {
+      "textures": "textures/items/bowl_of_fried_dumpling"
+    },
+    "raw_fried_dumpling": {
+      "textures": "textures/items/raw_fried_dumpling"
+    },
+    "fried_dumpling": {
+      "textures": "textures/items/fried_dumpling"
+    },
+    "raw_spring_roll": {
+      "textures": "textures/items/raw_spring_roll"
+    },
+    "spring_roll": {
+      "textures": "textures/items/spring_roll"
+    },
+    "potato_slice": {
+      "textures": "textures/items/potato_slice"
+    },
+    "potato_chip": {
+      "textures": "textures/items/potato_chip"
+    },
+    "tonkatsu": {
+      "textures": "textures/items/tonkatsu"
+    },
+    "fried_chicken_chip": {
+      "textures": "textures/items/fried_chicken_chip"
+    },
+    "fried_fish": {
+      "textures": "textures/items/fried_fish"
+    },
+    "cheese_wheel": {
+      "textures": "textures/items/cheese_wheel"
+    },
+    "stargazy_pie": {
+      "textures": "textures/items/stargazy_pie"
+    },
+    "quiche_lorraine": {
+      "textures": "textures/items/quiche_lorraine"
+    },
+    "raw_cheese_wheel": {
+      "textures": "textures/items/raw_cheese_wheel"
+    },
+    "cheese_wheel_block": {
+      "textures": "textures/items/cheese_wheel"
+    },
+    "paper_wrapped_fish": {
+      "textures": "textures/items/paper_wrapped_fish"
+    },
+    "bobo_chicken": {
+      "textures": "textures/items/bobo_chicken"
+    },
+    "deep_frying_pan": {
+      "textures": "textures/items/deep_frying_pan"
+    },
+    "plate_of_fried_dumpling": {
+      "textures": "textures/items/plate_of_fried_dumpling"
+    },
+    "sweet_rice": {
+      "textures": "textures/items/sweet_rice"
+    },
+    "spring_roll_medley": {
+      "textures": "textures/items/spring_roll_medley"
+    }
+  }
+}

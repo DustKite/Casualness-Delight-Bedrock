@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "casualness_delight:roast_gluten"
+    },
+    "tags": [
+      "campfire",
+      "soul_campfire"
+    ],
+    "input": "casualness_delight:gluten_skewer",
+    "output": "casualness_delight:roast_gluten"
+  }
+}

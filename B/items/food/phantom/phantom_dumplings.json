@@ -1,0 +1,30 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 8,
+                "saturation_modifier": 0.8
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "phantom_dumplings"
+                }
+            },
+            "minecraft:max_stack_size": 16,
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:phantom_dumplings",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

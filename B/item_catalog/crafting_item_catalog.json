@@ -1,0 +1,33 @@
+{
+   "format_version": "1.21.60",
+   "minecraft:crafting_items_catalog": {
+      "categories": [
+         {
+            "category_name": "equipment",
+            "groups": [
+               {
+                  "group_identifier": {
+                     "icon": "casualness_delight:raw_potato_bobo_chicken",
+                     "name": "casualness_delight:itemGroup.name.raw_materials"
+                  },
+                  "items": [
+                    "casualness_delight:raw_cheese_wheel",
+                    "casualness_delight:cheese_wheel_slice",
+                    "casualness_delight:raw_gluten",
+                    "casualness_delight:gluten",
+                    "casualness_delight:gluten_skewer",
+                    "casualness_delight:raw_donkey_meat",
+                    "casualness_delight:cooked_donkey_meat",
+                    "casualness_delight:raw_chicken_bobo_chicken",
+                    "casualness_delight:raw_cabbage_bobo_chicken",
+                    "casualness_delight:raw_potato_bobo_chicken",
+                    "casualness_delight:potato_slice",
+                    "casualness_delight:raw_spring_roll",
+                    "casualness_delight:raw_fried_dumpling"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

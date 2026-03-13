@@ -1,0 +1,50 @@
+{
+  "texture_data": {
+    "casualness_delight:deep_frying_pan": {
+      "textures": [
+        {
+          "path": "textures/blocks/pan"
+        }
+      ]
+    },
+    "spring_roll_medley": {
+      "textures": "textures/blocks/spring_roll_medley"
+    },
+    "plate_of_fried_dumpling": {
+      "textures": "textures/blocks/plate_of_fried_dumpling"
+    },
+    "sweet_rice": {
+      "textures": "textures/blocks/sweet_rice"
+    },
+    "bobo_chicken": {
+      "textures": "textures/blocks/bobo_chicken"
+    },
+    "quiche_lorraine": {
+      "textures": "textures/blocks/quiche_lorraine"
+    },
+    "stargazy_pie": {
+      "textures": "textures/blocks/stargazy_pie"
+    },
+    "cheese_wheel": {
+      "textures": "textures/blocks/cheese_wheel"
+    },
+    "raw_cheese_wheel_0": {
+      "textures": "textures/blocks/raw_cheese_wheel_0"
+    },
+    "raw_cheese_wheel_1": {
+      "textures": "textures/blocks/raw_cheese_wheel_1"
+    },
+    "raw_cheese_wheel_2": {
+      "textures": "textures/blocks/raw_cheese_wheel_2"
+    },
+    "raw_cheese_wheel_3": {
+      "textures": "textures/blocks/raw_cheese_wheel_3"
+    },
+    "paper_wrapped_fish": {
+      "textures": "textures/blocks/paper_wrapped_fish"
+    },
+    "deep_frying_pan": {
+      "textures": "textures/blocks/deep_frying_pan"
+    }
+  }
+}

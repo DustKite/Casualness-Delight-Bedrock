@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "casualness_delight:spring_roll_medley"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      " B "
+    ],
+    "key": {
+      "A": {
+        "item": "casualness_delight:spring_roll"
+      },
+      "B": {
+      "item": "minecraft:bowl"
+      }
+    },
+    "result": [
+    {
+      "item": "casualness_delight:spring_roll_medley",
+      "count": 1
+    }
+   ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "casualness_delight:quiche_lorraine_from_slice"
+        },
+        "key": {
+            "#": {
+                "item": "casualness_delight:quiche_lorraine_slice"
+            }
+        },
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "result": {
+            "item": "casualness_delight:quiche_lorraine"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

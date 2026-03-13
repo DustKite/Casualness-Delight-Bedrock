@@ -1,0 +1,24 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "casualness_delight:quiche_lorraine",
+                "replace_block_item": true
+            },
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "quiche_lorraine"
+                }
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:quiche_lorraine",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

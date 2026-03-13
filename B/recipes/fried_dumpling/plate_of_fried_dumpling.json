@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "casualness_delight:plate_of_fried_dumpling"
+        },
+        "ingredients": [
+            {
+                "item": "minecraft:bowl"
+            },
+            {
+                "item": "casualness_delight:fried_dumpling"
+            }
+        ],
+        "result": {
+            "count": 1,
+            "item": "casualness_delight:plate_of_fried_dumpling"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

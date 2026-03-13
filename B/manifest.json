@@ -1,0 +1,62 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "def6adbe-e707-4ac8-a28a-c36a7af22ad1",
+    "version": [
+      5,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "406f297a-26a3-4b4d-8a80-5f36cfd5d3b6",
+      "version": [
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "description": "CasualnessDelightScript",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "6ee946ca-156e-4e91-b65d-698c95beed2e",
+      "version": [
+        5,
+        0,
+        1
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Dust_Kite"
+    ],
+    "license": "GPLv3",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "87434819-de90-4851-a71b-2d31e1cdf4ec",
+      "version": [
+        5,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

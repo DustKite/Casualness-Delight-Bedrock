@@ -1,0 +1,30 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 10,
+                "saturation_modifier": 0.8,
+                "using_converts_to": "bowl"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "bowl_of_paper_wrapped_fish"
+                }
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:bowl_of_paper_wrapped_fish",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

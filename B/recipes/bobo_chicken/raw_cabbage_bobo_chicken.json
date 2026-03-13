@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "casualness_delight:raw_cabbage_bobo_chicken"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A",
+      "B "
+    ],
+    "key": {
+      "A": {
+        "tag": "farmersdelight:is_cabbage"
+      },
+      "B": {
+      "item": "minecraft:stick"
+      }
+    },
+    "result": [
+    {
+      "item": "casualness_delight:raw_cabbage_bobo_chicken",
+      "count": 1
+    }
+   ]
+  }
+}

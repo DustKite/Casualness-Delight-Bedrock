@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "casualness_delight:green_tongue"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " AB",
+      "CBA",
+      "DC "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:sugar"
+      },
+      "B": {
+      "item": "minecraft:slime_ball"
+      },
+      "C": {
+        "item": "minecraft:ice"
+      },
+      "D": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "casualness_delight:green_tongue"
+    }
+  }
+}

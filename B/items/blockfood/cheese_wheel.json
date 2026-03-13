@@ -1,0 +1,26 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:block_placer": {
+                "block": "casualness_delight:cheese_wheel",
+                "replace_block_item": true
+            },
+            "minecraft:display_name": {
+                "value": "%item.casualness_delight.cheese_wheel\n%advancement.cheese_wheel"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "cheese_wheel"
+                }
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:cheese_wheel",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

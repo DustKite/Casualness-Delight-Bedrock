@@ -1,0 +1,43 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "casualness_delight:quiche_lorraine_item"
+        },
+        "key": {
+            "#": {
+                "tag": "minecraft:egg"
+            },
+            "A": {
+                "item": "farmersdelight:cooked_bacon"
+            },
+            "B": {
+                "item": "farmersdelight:smoked_ham"
+            },
+            "C": {
+                "item": "minecraft:milk_bucket"
+            },
+            "D": {
+                "item": "farmersdelight:pie_crust"
+            }
+        },
+        "pattern": [
+            "###",
+            "ABA",
+            "CDC"
+        ],
+        "result": [
+            {
+                "item": "casualness_delight:quiche_lorraine",
+                "count": 1
+            },
+            {
+                "item": "minecraft:bucket",
+                "count": 2
+            }
+        ],
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

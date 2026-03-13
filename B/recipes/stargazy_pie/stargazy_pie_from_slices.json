@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "casualness_delight:stargazy_pie_from_slices"
+        },
+        "key": {
+            "#": {
+                "item": "casualness_delight:stargazy_pie_slice"
+            }
+        },
+        "pattern": [
+            "##",
+            "##"
+        ],
+        "result": {
+            "item": "casualness_delight:stargazy_pie"
+        },
+        "tags": [
+            "crafting_table"
+        ]
+    }
+}

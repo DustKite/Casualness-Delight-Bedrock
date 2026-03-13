@@ -1,0 +1,32 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 5,
+                "saturation_modifier": 0.5
+            },
+            "minecraft:display_name": {
+                "value": "%item.casualness_delight.stargazy_pie_slice\n%advancement.stargazy_pie_slice"
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "stargazy_pie_slice"
+                }
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:stargazy_pie_slice",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}
