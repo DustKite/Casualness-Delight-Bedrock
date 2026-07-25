@@ -1,0 +1,37 @@
+{
+    "format_version": "1.26.0",
+    "minecraft:item": {
+        "components": {
+            "minecraft:food": {
+                "can_always_eat": false,
+                "nutrition": 3,
+                "saturation_modifier": 0.7
+            },
+            "minecraft:icon": {
+                "textures": {
+                    "default": "fried_strange_mushroom"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "%item.casualness_delight.fried_strange_mushroom\n%advancement.fried_strange_mushroom"
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "farmersdelight:is_cooked_mushroom"
+                ]
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.4
+            }
+        },
+        "description": {
+            "identifier": "casualness_delight:fried_strange_mushroom",
+            "menu_category": {
+                "category": "equipment",
+                "group": "farmersdelight:itemGroup.name.miscFood"
+            }
+        }
+    }
+}

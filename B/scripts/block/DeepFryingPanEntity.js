@@ -8,10 +8,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { ItemStack, system, world } from "@minecraft/server";
-import { BlockEntity } from "../../lib/BlockEntity";
-import { isHeated } from "../../data/Heaters";
-import { findFryRecipe } from "../../data/recipe/FryRecipes";
-import { subscribeEvent } from "../../lib/EventSubscriber";
+import { BlockEntity } from "../lib/BlockEntity";
+import { isHeated } from "../data/Heaters";
+import { findFryRecipe } from "../data/recipe/FryRecipes";
+import { subscribeEvent } from "../lib/EventSubscriber";
 export class DeepFryingPanEntity extends BlockEntity {
     tick(args) {
         const entityBlockData = super.blockEntityData(args.entity);

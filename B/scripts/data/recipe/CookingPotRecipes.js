@@ -12,7 +12,7 @@ const cookingPotRecipes = [
             { "item": "farmersdelight:cod_slice" },
             { "item": "minecraft:potato" },
             { "item": "minecraft:potato" },
-            { "item": "farmersdelight:wheat_dough" }
+            { "tag": "farmersdelight:is_dough" }
         ],
         "result": {
             "item": "casualness_delight:fish_and_chips"
@@ -25,10 +25,10 @@ const cookingPotRecipes = [
         "time": 200,
         "experience": 1.0,
         "ingredients": [
-            { "item": "farmersdelight:wheat_dough" },
-            { "item": "minecraft:egg" },
-            { "item": "minecraft:egg" },
-            { "item": "farmersdelight:milk_bottle" }
+            { "tag": "farmersdelight:is_dough" },
+            { "tag": "minecraft:egg" },
+            { "tag": "minecraft:egg" },
+            { "tag": "farmersdelight:is_milk" }
         ],
         "result": {
             "item": "casualness_delight:yorkshire_pudding"
@@ -49,7 +49,7 @@ const cookingPotRecipes = [
             { "item": "farmersdelight:raw_pasta" },
             { "item": "minecraft:carrot" },
             { "tag": "farmersdelight:is_cabbage" },
-            { "item": "farmersdelight:onion" }
+            { "tag": "farmersdelight:is_onion" }
         ],
         "result": {
             "item": "casualness_delight:beef_noodles"
@@ -64,7 +64,7 @@ const cookingPotRecipes = [
         "ingredients": [
             { "item": "minecraft:phantom_membrane" },
             { "tag": "farmersdelight:is_cabbage" },
-            { "item": "farmersdelight:onion" },
+            { "tag": "farmersdelight:is_onion" },
             { "item": "minecraft:brown_mushroom" }
         ],
         "result": {
@@ -79,9 +79,9 @@ const cookingPotRecipes = [
         "time": 200,
         "experience": 1.0,
         "ingredients": [
-            { "item": "farmersdelight:milk_bottle" },
-            { "item": "farmersdelight:milk_bottle" },
-            { "item": "farmersdelight:milk_bottle" },
+            { "tag": "farmersdelight:is_milk" },
+            { "tag": "farmersdelight:is_milk" },
+            { "tag": "farmersdelight:is_milk" },
             [
                 { "item": "minecraft:brown_mushroom" },
                 { "item": "minecraft:red_mushroom" }
@@ -127,8 +127,8 @@ const cookingPotRecipes = [
         "ingredients": [
             { "item": "minecraft:rotten_flesh" },
             { "item": "minecraft:rotten_flesh" },
-            { "item": "farmersdelight:wheat_dough" },
-            { "item": "farmersdelight:onion" }
+            { "tag": "farmersdelight:is_dough" },
+            { "tag": "farmersdelight:is_onion" }
         ],
         "result": {
             "item": "casualness_delight:spicy_strips"
@@ -144,8 +144,8 @@ const cookingPotRecipes = [
         "time": 200,
         "experience": 1.0,
         "ingredients": [
-            { "item": "farmersdelight:rice" },
-            { "item": "farmersdelight:rice" },
+            { "tag": "farmersdelight:is_rice" },
+            { "tag": "farmersdelight:is_rice" },
             { "item": "minecraft:honey_bottle" },
             { "item": "minecraft:sugar" },
             { "item": "minecraft:beetroot" },
@@ -190,8 +190,8 @@ const cookingPotRecipes = [
                 { "item": "minecraft:cod" },
                 { "item": "minecraft:salmon" }
             ],
-            { "item": "farmersdelight:onion" },
-            { "item": "farmersdelight:tomato" },
+            { "tag": "farmersdelight:is_onion" },
+            { "tag": "farmersdelight:is_tomato" },
             { "item": "minecraft:potato" },
             { "tag": "farmersdelight:is_cabbage" },
             { "item": "minecraft:potato" }

@@ -1,36 +1,36 @@
 {
-  "mushroom_anim": {
-    "type": "image",
-    "texture": "textures/gui/mushroom_anim",
-    "uv": "@2_fps",
-    "uv_size": [
-      16,
-      16
-    ],
-    "disable_anim_fast_forward": true
-  },
-  "raw_fish_anim": {
-    "type": "image",
-    "texture": "textures/gui/raw_fish_anim",
-    "uv": "@2_fps",
-    "uv_size": [
-      16,
-      16
-    ],
-    "disable_anim_fast_forward": true
-  },
-  "2_fps": {
-    "anim_type": "flip_book",
-    "initial_uv": [
-      0,
-      0
-    ],
-    "frame_count": 2,
-    "frame_step": 16,
-    "fps": 1,
-    "reversible": true,
-    "easing": "linear"
-  },
+    "mushroom_anim": {
+        "type": "image",
+        "texture": "textures/gui/mushroom_anim",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "raw_fish_anim": {
+        "type": "image",
+        "texture": "textures/gui/raw_fish_anim",
+        "uv": "@2_fps",
+        "uv_size": [
+            16,
+            16
+        ],
+        "disable_anim_fast_forward": true
+    },
+    "2_fps": {
+        "anim_type": "flip_book",
+        "initial_uv": [
+            0,
+            0
+        ],
+        "frame_count": 2,
+        "frame_step": 16,
+        "fps": 1,
+        "reversible": true,
+        "easing": "linear"
+    },
     "casualness_delight_recipe_part_0": {
         "type": "panel",
         "size": [
@@ -52,7 +52,7 @@
                     "controls": [
                         {
                             "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
-                            "controls": [
+                                "controls": [
                                     {
                                         "cell0": {
                                             "type": "image",
@@ -97,8 +97,8 @@
                                     },
                                     {
                                         "cell3@cooking_pot.mushroom_anim": {
-                                        "type": "image",
-                                  "offset": [
+                                            "type": "image",
+                                            "offset": [
                                                 -23,
                                                 1.5
                                             ],
@@ -106,33 +106,33 @@
                                                 7.5,
                                                 7.5
                                             ]
-                                              }
+                                        }
                                     },
                                     {
                                         "cell4@cooking_pot.mushroom_anim": {
-                                        "type": "image",
-                                  "offset": [
-                                               -14.625,
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
                                                 1.5
                                             ],
                                             "size": [
                                                 7.5,
                                                 7.5
                                             ]
-                                              }
+                                        }
                                     },
                                     {
                                         "cell5@cooking_pot.mushroom_anim": {
-                                        "type": "image",
-                                  "offset": [
-                                               -6.25,
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
                                                 1.5
                                             ],
                                             "size": [
                                                 7.5,
                                                 7.5
                                             ]
-                                              }
+                                        }
                                     },
                                     {
                                         "result": {
@@ -148,8 +148,8 @@
                                             "texture": "textures/items/raw_cheese_wheel"
                                         }
                                     }
-                         ]
-                        }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -238,7 +238,7 @@
                     "controls": [
                         {
                             "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
-                            "controls": [
+                                "controls": [
                                     {
                                         "cell0": {
                                             "type": "image",
@@ -283,8 +283,8 @@
                                     },
                                     {
                                         "cell3": {
-                                        "type": "image",
-                                  "offset": [
+                                            "type": "image",
+                                            "offset": [
                                                 -23,
                                                 1.5
                                             ],
@@ -293,26 +293,26 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/carrot"
-                                              }
+                                        }
                                     },
                                     {
                                         "cell4@cooking_pot.is_cabbage": {
-                                        "type": "image",
-                                  "offset": [
-                                               -14.625,
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
                                                 1.5
                                             ],
                                             "size": [
                                                 7.5,
                                                 7.5
                                             ]
-                                              }
+                                        }
                                     },
                                     {
                                         "cell5": {
-                                        "type": "image",
-                                  "offset": [
-                                               -6.25,
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
                                                 1.5
                                             ],
                                             "size": [
@@ -320,21 +320,21 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/onion"
-                                              }
+                                        }
                                     },
                                     {
                                         "container": {
-                                             "type": "image",
-                                             "offset": [
-                                                        6,
-                                                       10.875
-                                                      ],
-                                               "size": [
-                                                  7.5,
-                                                  7.5
-                                                      ],
-                                           "texture": "textures/items/bowl"
-                                                     }
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
                                     },
                                     {
                                         "result": {
@@ -350,8 +350,8 @@
                                             "texture": "textures/items/beef_noodles"
                                         }
                                     }
-                         ]
-                        }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -391,7 +391,7 @@
                     "controls": [
                         {
                             "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
-                            "controls": [
+                                "controls": [
                                     {
                                         "cell0": {
                                             "type": "image",
@@ -463,8 +463,8 @@
                                             ]
                                         }
                                     }
-                         ]
-                        }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -483,7 +483,7 @@
                     "controls": [
                         {
                             "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
-                            "controls": [
+                                "controls": [
                                     {
                                         "cell0": {
                                             "type": "image",
@@ -527,8 +527,8 @@
                                     },
                                     {
                                         "cell3": {
-                                        "type": "image",
-                                  "offset": [
+                                            "type": "image",
+                                            "offset": [
                                                 -23,
                                                 1.5
                                             ],
@@ -537,7 +537,7 @@
                                                 7.5
                                             ],
                                             "texture": "textures/blocks/mushroom_brown"
-                                              }
+                                        }
                                     },
                                     {
                                         "result": {
@@ -568,8 +568,8 @@
                                             ]
                                         }
                                     }
-                         ]
-                        }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -633,7 +633,7 @@
                     "controls": [
                         {
                             "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
-                            "controls": [
+                                "controls": [
                                     {
                                         "cell0": {
                                             "type": "image",
@@ -678,8 +678,8 @@
                                     },
                                     {
                                         "cell3": {
-                                        "type": "image",
-                                  "offset": [
+                                            "type": "image",
+                                            "offset": [
                                                 -23,
                                                 1.5
                                             ],
@@ -688,13 +688,13 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/sugar"
-                                              }
+                                        }
                                     },
                                     {
                                         "cell4": {
-                                        "type": "image",
-                                  "offset": [
-                                               -14.625,
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
                                                 1.5
                                             ],
                                             "size": [
@@ -702,13 +702,13 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/beetroot"
-                                              }
+                                        }
                                     },
                                     {
                                         "cell5": {
-                                        "type": "image",
-                                  "offset": [
-                                               -6.25,
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
                                                 1.5
                                             ],
                                             "size": [
@@ -716,21 +716,21 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/apple"
-                                              }
+                                        }
                                     },
                                     {
                                         "container": {
-                                             "type": "image",
-                                             "offset": [
-                                                        6,
-                                                       10.875
-                                                      ],
-                                               "size": [
-                                                  7.5,
-                                                  7.5
-                                                      ],
-                                           "texture": "textures/items/bowl"
-                                                     }
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
                                     },
                                     {
                                         "result": {
@@ -746,8 +746,8 @@
                                             "texture": "textures/items/sweet_rice"
                                         }
                                     }
-                         ]
-                        }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -814,7 +814,7 @@
                     "controls": [
                         {
                             "cooking_pot_recipe_cell@cooking_pot.cooking_pot_recipe_cell": {
-                            "controls": [
+                                "controls": [
                                     {
                                         "cell0@raw_fish_anim": {
                                             "type": "image",
@@ -858,8 +858,8 @@
                                     },
                                     {
                                         "cell3": {
-                                        "type": "image",
-                                  "offset": [
+                                            "type": "image",
+                                            "offset": [
                                                 -23,
                                                 1.5
                                             ],
@@ -868,26 +868,26 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/potato"
-                                              }
+                                        }
                                     },
                                     {
                                         "cell4@cooking_pot.is_cabbage": {
-                                        "type": "image",
-                                  "offset": [
-                                               -14.625,
+                                            "type": "image",
+                                            "offset": [
+                                                -14.625,
                                                 1.5
                                             ],
                                             "size": [
                                                 7.5,
                                                 7.5
                                             ]
-                                              }
+                                        }
                                     },
                                     {
                                         "cell5": {
-                                        "type": "image",
-                                  "offset": [
-                                               -6.25,
+                                            "type": "image",
+                                            "offset": [
+                                                -6.25,
                                                 1.5
                                             ],
                                             "size": [
@@ -895,21 +895,21 @@
                                                 7.5
                                             ],
                                             "texture": "textures/items/potato"
-                                              }
+                                        }
                                     },
                                     {
                                         "container": {
-                                             "type": "image",
-                                             "offset": [
-                                                        6,
-                                                       10.875
-                                                      ],
-                                               "size": [
-                                                  7.5,
-                                                  7.5
-                                                      ],
-                                           "texture": "textures/items/bowl"
-                                                     }
+                                            "type": "image",
+                                            "offset": [
+                                                6,
+                                                10.875
+                                            ],
+                                            "size": [
+                                                7.5,
+                                                7.5
+                                            ],
+                                            "texture": "textures/items/bowl"
+                                        }
                                     },
                                     {
                                         "result": {
@@ -925,8 +925,8 @@
                                             "texture": "textures/items/paper_wrapped_fish"
                                         }
                                     }
-                         ]
-                        }
+                                ]
+                            }
                         }
                     ]
                 }

@@ -7,7 +7,7 @@
     "version": [
       5,
       0,
-      1
+      2
     ],
     "min_engine_version": [
       1,
@@ -22,25 +22,25 @@
       "version": [
         5,
         0,
-        1
+        2
       ]
     },
     {
-      "description": "CasualnessDelightScript",
+      "description": "Casualness Delight - Script",
       "type": "script",
       "language": "javascript",
       "uuid": "6ee946ca-156e-4e91-b65d-698c95beed2e",
       "version": [
         5,
         0,
-        1
+        2
       ],
       "entry": "scripts/main.js"
     }
   ],
   "metadata": {
     "authors": [
-      "Dust_Kite"
+      "Dust_Kite/Elaikes"
     ],
     "license": "GPLv3",
     "product_type": "addon"
@@ -51,7 +51,7 @@
       "version": [
         5,
         0,
-        1
+        2
       ]
     },
     {

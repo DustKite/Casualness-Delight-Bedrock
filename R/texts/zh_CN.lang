@@ -31,6 +31,8 @@ item.casualness_delight:potato_chip=薯片
 item.casualness_delight:tonkatsu=炸猪排
 item.casualness_delight:fried_chicken_chip=炸鸡块
 item.casualness_delight:fried_fish=炸鱼
+item.casualness_delight:fried_mushroom=炸蘑菇
+item.casualness_delight:fried_cake=炸糕
 
 item.casualness_delight:quiche_lorraine=洛林乳蛋饼
 item.casualness_delight:paper_wrapped_fish=纸包鱼
@@ -47,11 +49,13 @@ item.casualness_delight.potato_bobo_chicken=钵钵土豆
 item.casualness_delight.stargazy_pie=仰望星空派
 item.casualness_delight.cheese_wheel=芝士轮
 item.casualness_delight.raw_cheese_wheel=生芝士轮
+item.casualness_delight.fried_strange_mushroom=炸蘑菇
 
 advancement.stargazy_pie=§9仰望星空还是死不瞑目？
 advancement.stargazy_pie_slice=§9鱼的眼睛闪烁着诡异的光
 advancement.bobo_chicken=§9钵钵鸡~钵呀钵钵鸡
 advancement.cheese_wheel=§9芝士，与你分享
+advancement.fried_strange_mushroom=§9金黄酥脆，人畜无害——但愿吧？
 
 tile.casualness_delight:deep_frying_pan_block.name=炸锅
 

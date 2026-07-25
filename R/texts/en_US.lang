@@ -32,6 +32,8 @@ item.casualness_delight:tonkatsu=Tonkasu
 item.casualness_delight:fried_chicken_chip=Fried Chicken Chip
 item.casualness_delight:fried_fish=Fried Ship
 item.casualness_delight:quiche_lorraine=Quiche Lorraine
+item.casualness_delight:fried_mushroom=Fried Mushroom
+item.casualness_delight:fried_cake=Fried Cake
 
 item.casualness_delight:paper_wrapped_fish=Paper Wrapped Fish
 item.casualness_delight:bobo_chicken=Bobo Chicken
@@ -52,6 +54,7 @@ advancement.stargazy_pie=§9The fish's eyes flashed with an eerie light
 advancement.stargazy_pie_slice=§9The fish's eyes flashed with an eerie light
 advancement.bobo_chicken=§9Bo Bo Chicken~Bo Bo Bo Bo Chicken
 advancement.cheese_wheel=§9Cheese, share with you
+advancement.fried_strange_mushroom=§9Golden and crispy, perfectly harmless — hopefully?
 
 tile.casualness_delight:deep_frying_pan_block.name=Deep Frying Pan
 

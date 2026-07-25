@@ -107,6 +107,15 @@
     "fried_fish": {
       "textures": "textures/items/fried_fish"
     },
+    "fried_cake": {
+      "textures": "textures/items/fried_cake"
+    },
+    "fried_mushroom": {
+      "textures": "textures/items/fried_mushroom"
+    },
+    "fried_strange_mushroom": {
+      "textures": "textures/items/fried_strange_mushroom"
+    },
     "cheese_wheel": {
       "textures": "textures/items/cheese_wheel"
     },

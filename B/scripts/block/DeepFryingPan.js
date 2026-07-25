@@ -8,12 +8,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { ItemStack, PlayerInteractWithBlockAfterEvent, PlayerPlaceBlockAfterEvent, world, } from "@minecraft/server";
-import { BlockWithEntity } from "../../lib/BlockWithEntity";
-import { findFryRecipe } from "../../data/recipe/FryRecipes";
-import { hasLimitedMaterials } from "../../lib/EntityUtil";
-import { takeItem } from "../../lib/ItemUtil";
-import { isHeated } from "../../data/Heaters";
-import { subscribeEvent } from "../../lib/EventSubscriber";
+import { BlockWithEntity } from "../lib/BlockWithEntity";
+import { findFryRecipe } from "../data/recipe/FryRecipes";
+import { hasLimitedMaterials } from "../lib/EntityUtil";
+import { takeItem } from "../lib/ItemUtil";
+import { isHeated } from "../data/Heaters";
+import { subscribeEvent } from "../lib/EventSubscriber";
 export class DeepFryingPan extends BlockWithEntity {
     placeBlock(args) {
         const block = args.block;

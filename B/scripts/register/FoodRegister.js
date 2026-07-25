@@ -19,6 +19,13 @@ export class FoodRegister {
 
         if (itemStack && useDuration == 0) {
             switch (itemStack.typeId) {
+                case "casualness_delight:potato_bobo_chicken":
+                case "casualness_delight:cabbage_bobo_chicken":
+                case "casualness_delight:chicken_bobo_chicken":
+                case "casualness_delight:spring_roll":
+                case "casualness_delight:fried_dumpling":
+                    player.addEffect('saturation', 30 * 20, { amplifier: 0 });
+                    break;
                 case "casualness_delight:fish_and_chips":
                     player.addEffect('saturation', 300 * 20, { amplifier: 0 });
                     break;
@@ -30,21 +37,6 @@ export class FoodRegister {
                     break;
                 case "casualness_delight:bowl_of_paper_wrapped_fish":
                     player.addEffect('saturation', 180 * 20, { amplifier: 0 });
-                    break;
-                case "casualness_delight:potato_bobo_chicken":
-                    player.addEffect('saturation', 30 * 20, { amplifier: 0 });
-                    break;
-                case "casualness_delight:cabbage_bobo_chicken":
-                    player.addEffect('saturation', 30 * 20, { amplifier: 0 });
-                    break;
-                case "casualness_delight:chicken_bobo_chicken":
-                    player.addEffect('saturation', 30 * 20, { amplifier: 0 });
-                    break;
-                case "casualness_delight:spring_roll":
-                    player.addEffect('saturation', 30 * 20, { amplifier: 0 });
-                    break;
-                case "casualness_delight:fried_dumpling":
-                    player.addEffect('saturation', 30 * 20, { amplifier: 0 });
                     break;
                 case "casualness_delight:phantom_dumplings":
                     player.addEffect('slow_falling', 60 * 20, { amplifier: 0 });
@@ -64,6 +56,10 @@ export class FoodRegister {
                     if (Math.random() < 0.3) {
                         player.addEffect('blindness', 15 * 20, { amplifier: 0 });
                     }
+                    break;
+                case "casualness_delight:fried_strange_mushroom":
+                    player.addEffect('fire_resistance', 20 * 20, { amplifier: 0 });
+                    player.addEffect('poison', 5 * 20, { amplifier: 0 });
                     break;
             }
         }
