@@ -10,25 +10,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 import { StartupEvent, system } from "@minecraft/server";
 import { EventAPI } from "../../lib/EventAPI";
-
 class RawCheeseWheelComponent {
     constructor() {
         this.onRandomTick = this.onRandomTick.bind(this);
     }
     onRandomTick(args) {
         const block = args.block;
+        const lightLevel = block.getLightLevel();
+        const growChance = lightLevel <= 9 ? 0.7 : 0.5;
+        if (Math.random() > growChance) {
+            return;
+        }
         const state = block.permutation.getState('casualness_delight:food_block_stage');
         if (state < 3) {
             block.setPermutation(
                 block.permutation.withState('casualness_delight:food_block_stage', state + 1)
             );
         }
-        else if (state == 3) {
+        else if (state === 3) {
             block.dimension.setBlockType(block.location, "casualness_delight:cheese_wheel");
         }
     }
 }
-
 export class RawCheeseWheelComponentRegister {
     register(args) {
         args.blockComponentRegistry.registerCustomComponent('casualness_delight:raw_cheese_wheel', new RawCheeseWheelComponent());

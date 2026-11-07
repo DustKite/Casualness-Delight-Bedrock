@@ -28,4 +28,6 @@ import { DeepFryingPan } from "./block/DeepFryingPan";
 new DeepFryingPan();
 import { DeepFryingPanEntity } from "./block/DeepFryingPanEntity";
 new DeepFryingPanEntity();
+import { FryRecipeRegistries } from "./init/FryRecipeRegistries";
+FryRecipeRegistries.initFryScoRegistries();
 import "./customComponents/blocks/InteractComponent";

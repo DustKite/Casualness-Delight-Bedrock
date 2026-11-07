@@ -79,7 +79,7 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "deep_frying_pan",
-                    "render_method": "alpha_test"
+                    "render_method": "alpha_test_single_sided"
                 }
             },
             "minecraft:destruction_particles": {

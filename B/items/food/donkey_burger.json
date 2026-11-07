@@ -12,6 +12,11 @@
                     "default": "donkey_burger"
                 }
             },
+            "minecraft:tags": {
+                "tags": [
+                    "farmersdelight:is_donkey_burger"
+                ]
+            },
             "minecraft:use_animation": "eat",
             "minecraft:use_modifiers": {
                 "use_duration": 1.6,

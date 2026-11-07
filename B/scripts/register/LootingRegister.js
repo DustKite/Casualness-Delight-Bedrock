@@ -12,23 +12,19 @@ import { EventAPI } from "../lib/EventAPI";
 import { ItemAPI } from "../lib/ItemAPI";
 export class LootingRegister {
     looting(args) {
-        const hurtEntity = args.hurtEntity;
-        if (!hurtEntity)
-            return;
-
-        const damagingEntity = args.damageSource?.damagingEntity;
-        const equipment = damagingEntity?.getComponent(EntityEquippableComponent.componentId);
-        const mainHand = equipment?.getEquipmentSlot(EquipmentSlot.Mainhand);
-        const mainHandItem = mainHand?.getItem();
-        const Looting = mainHandItem?.getComponent("minecraft:enchantable")?.getEnchantment("looting")?.level;
-
+        const hurtEntity = args?.hurtEntity;
+        if (!hurtEntity?.typeId || hurtEntity.typeId !== 'minecraft:donkey') return;
         const health = hurtEntity.getComponent('minecraft:health');
-        const isBaby = hurtEntity.getComponent('minecraft:is_baby');
-
-        if (!health?.currentValue && hurtEntity.typeId === 'minecraft:donkey' && !isBaby) {
-            const extraAmount = Looting ? Math.floor(Math.random() * 2) : 0;
-            ItemAPI.spawn(hurtEntity, 'casualness_delight:raw_donkey_meat', Math.floor(Math.random() * 2) + 1 + extraAmount);
-        }
+        if (!health || health.currentValue > 0 || hurtEntity.getComponent('minecraft:is_baby')) return;
+        const damagingEntity = args.damageSource?.damagingEntity;
+        if (!damagingEntity?.typeId) return;
+        let lootingLevel = 0;
+        try {
+            const mainHand = damagingEntity.getComponent(EntityEquippableComponent.componentId)?.getEquipmentSlot(EquipmentSlot.Mainhand);
+            const item = mainHand?.getItem();
+            lootingLevel = item?.getComponent("minecraft:enchantable")?.getEnchantment("looting")?.level || 0;
+        } catch (e) { }
+        ItemAPI.spawn(hurtEntity, 'casualness_delight:raw_donkey_meat', Math.floor(Math.random() * 2) + 1 + (lootingLevel > 0 ? Math.floor(Math.random() * (lootingLevel + 1)) : 0));
     }
 }
 __decorate([
